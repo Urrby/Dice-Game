@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+		
+        
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">0</div>
+                <div class="player-current-box" id="current-box-1">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">0</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">0</div>
+                <div class="player-current-box" id="current-box-2">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+			<div class="buttons">
+            <button class="btn-new">New game</button>
+            <button class="btn-roll">Roll dice</button>
+            <button class="btn-hold">Hold</button>
+			</div>
+            <input type="text" placeholder="Enter final score" class="final-score">
+            
+			<img src="img/trophy_blue.png" alt="trophy" class="trophy" id="trophy-0">
+			<img src="img/trophy_red.png" alt="trophy" class="trophy" id="trophy-1">
+            <img src="img/dice-6.png" alt="Dice" class="dice" id="dice-0">
+            <img src="img/dice2-6.png" alt="Dice" class="dice" id="dice-1">
+        </div>
+		<script src="js/script.js"></script>
+    </body>
+</html>
